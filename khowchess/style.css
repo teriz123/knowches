@@ -1,0 +1,71 @@
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h4{
+    color: black;
+    text-align: center;
+    font-family: cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first,.second, .third, .Fourth{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 5px 5px 7px rgb(70, 70, 70);
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-family: cursive;
+    padding: 15px;
+    margin: 19px;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+ }
+p{
+    font-family: cursive;
+}
+.navbar{
+    background-color: black;
+  }
+  .navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.firsts,.seconds, .thirds, .Fourths{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    font-family: cursive;
+    padding: 20px;
+    margin: 20px;
+}
+.y{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.yy{
+    padding: 10px;
+    margin: 10px;
+}
